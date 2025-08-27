@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47166acda94b92f449270212dbf01cd7, type: 3}
+  m_Name: Cham
+  m_EditorClassIdentifier: 
+  itemName: Cham
+  itemIcon: {fileID: 21300000, guid: c0280fafa88fc374899c40a7f7982b39, type: 3}
+  itemDescription: 
+  itemID: 6
+  itemWeight: 0
+  weaponAnimator: {fileID: 22100000, guid: b1725b7dd56b46345bf85aa853892ce4, type: 2}
+  weaponModelType: 0
+  weaponModel: {fileID: 7020102121410288334, guid: 9c525fb7ebb88464c8153df74fe4c864,
+    type: 3}
+  weaponClass: 3
+  strengthREQ: 0
+  dexREQ: 0
+  intREQ: 0
+  faithREQ: 0
+  PhysicalDamage: 0
+  magicDamage: 0
+  fireDamage: 0
+  holyDamage: 0
+  lightingDamage: 0
+  poiseDamage: 10
+  light_Attack_01_Modifier: 1
+  light_Attack_02_Modifier: 1.2
+  light_Jump_Attack_01_Modifier: 1
+  heavy_Attack_01_Modifier: 1.4
+  heavy_Attack_02_Modifier: 1.6
+  heavy_Jump_Attack_01_Modifier: 1.8
+  charge_Attack_01_Modifier: 2
+  charge_Attack_02_Modifier: 2
+  running_Attack_01_Modifiers: 1.1
+  rolling_Attack_01_Modifiers: 1.1
+  backstep_Attack_01_Modifiers: 1.1
+  baseStaminaCot: 20
+  lightAttackStaminaCostMultiplier: 1
+  heavyAttackStaminaCostMultiplier: 1.3
+  chargedAttackStaminaCostMultiplier: 1.5
+  runningAttackStaminaCostMultiplier: 1.1
+  rollingAttackStaminaCostMultiplier: 1.1
+  backstepAttackStaminaCostMultiplier: 1.1
+  physicalBaseDamageAbsorption: 50
+  fireBaseDamageAbsorption: 50
+  magiclBaseDamageAbsorption: 50
+  lightingBaseDamageAbsorption: 50
+  holyBaseDamageAbsorption: 50
+  stability: 50
+  oh_RB_Action: {fileID: 11400000, guid: 0be9800d61d57c24cb2909060fe00953, type: 2}
+  oh_RT_Action: {fileID: 11400000, guid: 0be9800d61d57c24cb2909060fe00953, type: 2}
+  oh_LB_Action: {fileID: 11400000, guid: 0be9800d61d57c24cb2909060fe00953, type: 2}
+  ashOfWarAction: {fileID: 11400000, guid: 7c5057a57c1906e41bc7f211a006a588, type: 2}
+  whooshes: []
+  blockingSFX: []

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9fc8c2b726ba444ea1505c6602a0936, type: 3}
+  m_Name: Ranger Armor
+  m_EditorClassIdentifier: 
+  itemName: Ranger Armor
+  itemIcon: {fileID: 21300000, guid: c9d48411a39cdc9429fca1da96828e34, type: 3}
+  itemDescription: 
+  itemID: 9
+  itemWeight: 10.6
+  physicalDamageAbsorption: 12.4
+  magicDamageAbsorption: 10.9
+  fireDamageAbsorption: 10.9
+  lightningDamageAbsorption: 9.5
+  holyDamageAbsorption: 8.8
+  immunity: 28
+  robustness: 50
+  focus: 18
+  vitality: 18
+  poise: 24
+  equipmentModels:
+  - {fileID: 11400000, guid: 04a46433e5a5ed24c8104c63e52351fc, type: 2}
+  - {fileID: 11400000, guid: b5fdaf3f0610eb040adcf91de2a26d35, type: 2}
+  - {fileID: 11400000, guid: 72d07c376a283334aa1078b2ee42cc39, type: 2}
+  - {fileID: 11400000, guid: 08302e61e77763149aaf8fa3de47ed0c, type: 2}
+  - {fileID: 11400000, guid: 7f52bb29b81acf6458f455e1bfd3075a, type: 2}
+  - {fileID: 11400000, guid: e10950928cda82b4095d13dee2fd0ff7, type: 2}
+  - {fileID: 11400000, guid: 5a042e33e659fc44caedd03487d2756b, type: 2}

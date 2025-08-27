@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92cca24f7beb82f4d845d30edc9d1299, type: 3}
+  m_Name: Hexblade Guanlets
+  m_EditorClassIdentifier: 
+  itemName: Hexblade Guanlets
+  itemIcon: {fileID: 21300000, guid: b7e5b4072d83c234ab6819bf4fa504ed, type: 3}
+  itemDescription: 
+  itemID: 7
+  itemWeight: 3.5
+  physicalDamageAbsorption: 3.1
+  magicDamageAbsorption: 2.7
+  fireDamageAbsorption: 2.7
+  lightningDamageAbsorption: 2.3
+  holyDamageAbsorption: 2.1
+  immunity: 9
+  robustness: 17
+  focus: 6
+  vitality: 6
+  poise: 5
+  equipmentModels:
+  - {fileID: 11400000, guid: 536a31c84c639c344906c90fd2c441fb, type: 2}
+  - {fileID: 11400000, guid: 53b73a1ffe878314d85aaec3b5cef4d4, type: 2}
+  - {fileID: 11400000, guid: 6c016f09025487941b09b809628ab5a4, type: 2}
+  - {fileID: 11400000, guid: 2a1c66302c6ed604985a2093f03039c0, type: 2}

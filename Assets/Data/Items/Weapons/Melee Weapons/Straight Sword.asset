@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 853634c2e499a5d44970e08a0278de6e, type: 3}
+  m_Name: Straight Sword
+  m_EditorClassIdentifier: 
+  itemName: Straight Sword
+  itemIcon: {fileID: 21300000, guid: 009d4fc67f3ecc341a5229c548eea9a0, type: 3}
+  itemDescription: A straight sword.
+  itemID: 1
+  itemWeight: 0
+  weaponAnimator: {fileID: 22100000, guid: bbce4d251ee57354d930c7540c610f27, type: 2}
+  weaponModelType: 0
+  weaponModel: {fileID: 4794069866722140877, guid: f6771a12427ba76439382ff98b8a68a6,
+    type: 3}
+  weaponClass: 0
+  strengthREQ: 10
+  dexREQ: 10
+  intREQ: 0
+  faithREQ: 0
+  physicalDamage: 118
+  magicDamage: 0
+  fireDamage: 0
+  holyDamage: 0
+  lightingDamage: 0
+  poiseDamage: 25
+  light_Attack_01_Modifier: 1.1
+  light_Attack_02_Modifier: 1.2
+  light_Jump_Attack_01_Modifier: 1
+  heavy_Attack_01_Modifier: 1.4
+  heavy_Attack_02_Modifier: 1.6
+  heavy_Jump_Attack_01_Modifier: 1.8
+  charge_Attack_01_Modifier: 2
+  charge_Attack_02_Modifier: 2.2
+  running_Attack_01_Modifiers: 1.1
+  rolling_Attack_01_Modifiers: 1.1
+  backstep_Attack_01_Modifiers: 1.1
+  baseStaminaCost: 20
+  lightAttackStaminaCostMultiplier: 0.9
+  heavyAttackStaminaCostMultiplier: 1.3
+  chargedAttackStaminaCostMultiplier: 1.5
+  runningAttackStaminaCostMultiplier: 1.1
+  rollingAttackStaminaCostMultiplier: 1.1
+  backstepAttackStaminaCostMultiplier: 1.1
+  physicalBaseDamageAbsorption: 50
+  fireBaseDamageAbsorption: 50
+  magiclBaseDamageAbsorption: 50
+  lightingBaseDamageAbsorption: 50
+  holyBaseDamageAbsorption: 50
+  stability: 50
+  oh_RB_Action: {fileID: 11400000, guid: f0210277ce47fe5419db106dd553913e, type: 2}
+  oh_RT_Action: {fileID: 11400000, guid: a2ba43a098a813348b4ea8e551f90a9b, type: 2}
+  oh_LB_Action: {fileID: 11400000, guid: da6e574640980c44094d3ef43656fa3f, type: 2}
+  ashOfWarAction: {fileID: 11400000, guid: 7c5057a57c1906e41bc7f211a006a588, type: 2}
+  whooshes:
+  - {fileID: 8300000, guid: ab38c8f953789430691b634dd685119b, type: 3}
+  - {fileID: 8300000, guid: 7cbfafc671f0e4426a71d276a8bb71ec, type: 3}
+  - {fileID: 8300000, guid: e945ae282c1c548c3bb168b0606333ba, type: 3}
+  - {fileID: 8300000, guid: abf4caad1f5a24e49a317937ebf12163, type: 3}
+  - {fileID: 8300000, guid: d637bacd075454147bb398300d59dc3e, type: 3}
+  blockingSFX:
+  - {fileID: 8300000, guid: 146b56af98f4175488ed600f1f6e8c09, type: 3}
+  - {fileID: 8300000, guid: 140f7aac9fcdbd4408ad2357fdac388d, type: 3}
+  - {fileID: 8300000, guid: f0af3fb973e4c1b499f9b0a9b67c789a, type: 3}
+  - {fileID: 8300000, guid: 4277c6ffbeeadbf41815d38727ca3863, type: 3}
+  - {fileID: 8300000, guid: 649ce0f7b9bfa5c4db2446e03940442b, type: 3}
+  riposte_Attack_01_Modifiers: 3.3
+  backstab_Attack_01_Modifiers: 3.3

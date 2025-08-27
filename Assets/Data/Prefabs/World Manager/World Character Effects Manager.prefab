@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8064086596544783960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3979317565394747506}
+  - component: {fileID: 3007961328629638957}
+  m_Layer: 0
+  m_Name: World Character Effects Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3979317565394747506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8064086596544783960}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3007961328629638957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8064086596544783960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2844084f1ec9143a3dd2793bcf94e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodSplatterVFX: {fileID: 3548588485384254792, guid: 2f9e7dc163581394da1e00b561eed65d,
+    type: 3}
+  criticalbloodSplatterVFX: {fileID: 3548588485384254792, guid: 2f9e7dc163581394da1e00b561eed65d,
+    type: 3}
+  healingFlaskVFX: {fileID: 6188867097229650787, guid: 221e1d29b77411f4bbe61b6f367428e0,
+    type: 3}
+  deadSpotVFX: {fileID: 323690132305003416, guid: ca94202152ac8c04d9a96ff8ac5647a1,
+    type: 3}
+  takeDamageEffect: {fileID: 11400000, guid: 4eec87b7086d5304db44d1b14e8e35ed, type: 2}
+  takeBlockDamageEffect: {fileID: 11400000, guid: 0646b32a44a6a9e469795f8047cf07bb,
+    type: 2}
+  takeCriticalDamageEffects: {fileID: 11400000, guid: c026a16d343d6ef4ab9e197402b82e66,
+    type: 2}
+  twoHandingEffect: {fileID: 11400000, guid: 4c234423f9412074c96fa0167ccf278b, type: 2}
+  instantEffect:
+  - {fileID: 11400000, guid: 2d9ba6227c3484e4795f7323e6b79a10, type: 2}
+  - {fileID: 11400000, guid: 4eec87b7086d5304db44d1b14e8e35ed, type: 2}
+  - {fileID: 11400000, guid: 0646b32a44a6a9e469795f8047cf07bb, type: 2}
+  - {fileID: 11400000, guid: c026a16d343d6ef4ab9e197402b82e66, type: 2}
+  staticEffect:
+  - {fileID: 11400000, guid: 4c234423f9412074c96fa0167ccf278b, type: 2}
